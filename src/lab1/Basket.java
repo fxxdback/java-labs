@@ -21,6 +21,10 @@ public class Basket {
         itemList.add(item);
     }
 
+    public void removeItem(Item item) {
+        itemList.remove(item);
+    }
+
     public List<Item> getItemList() {
         return Collections.unmodifiableList(itemList);
     }

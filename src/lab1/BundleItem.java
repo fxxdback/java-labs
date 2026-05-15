@@ -37,8 +37,4 @@ public class BundleItem implements Item {
         return totalWeight;
     }
 
-    @Override
-    public List<Item> getChildItemList() {
-        return Collections.unmodifiableList(itemList);
-    }
 }
