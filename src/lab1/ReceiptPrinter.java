@@ -3,7 +3,7 @@ import java.util.List;
 
 public abstract class ReceiptPrinter {
     public final void printReceipt(List<Item> items) {
-        System.out.println("\n========== ВАШ ЧЕК ==========");
+        System.out.println("\n=========== ЧЕК ===========");
         double total = 0;
         for (Item item : items) {
             System.out.printf("- %-20s | %.2f руб.%n", item.getName(), item.getPrice());
